@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "customer": "testCustomer1",
+    "value": 40,
+    "timestamp": 1677625200000
+  },
+  {
+    "id": 2,
+    "customer": "testCustomer1",
+    "value": 70,
+    "timestamp": 1675206000000
+  },
+  {
+    "id": 3,
+    "customer": "testCustomer1",
+    "value": 130,
+    "timestamp": 1673737200000
+  },
+  {
+    "id": 4,
+    "customer": "testCustomer2",
+    "value": 160,
+    "timestamp": 1676415600000
+  },
+  {
+    "id": 5,
+    "customer": "testCustomer1",
+    "value": 160,
+    "timestamp": 1676588400000
+  },
+  {
+    "id": 6,
+    "customer": "testCustomer3",
+    "value": 60,
+    "timestamp": 1673910000000
+  },
+  {
+    "id": 7,
+    "customer": "testCustomer2",
+    "value": 60,
+    "timestamp": 1674169200000
+  },
+  {
+    "id": 8,
+    "customer": "testCustomer3",
+    "value": 520,
+    "timestamp": 1675378800000
+  }
+]

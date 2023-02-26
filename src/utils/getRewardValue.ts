@@ -1,0 +1,19 @@
+const FIRST_REWARD_LEVEL_RANGE = 50;
+const SECOND_REWARD_LEVEL_RANGE = 100;
+const FIRST_REWARD_LEVEL_VALUE = 1;
+const SECOND_REWARD_LEVEL_VALUE = 2;
+
+export const getRewardValue = (value: number) => {
+  if (value <= FIRST_REWARD_LEVEL_RANGE) {
+    return 0;
+  }
+
+  if (value <= SECOND_REWARD_LEVEL_RANGE) {
+    return (value - FIRST_REWARD_LEVEL_RANGE) * FIRST_REWARD_LEVEL_VALUE;
+  }
+
+  return (
+    (value - SECOND_REWARD_LEVEL_RANGE) * SECOND_REWARD_LEVEL_VALUE +
+    SECOND_REWARD_LEVEL_RANGE * FIRST_REWARD_LEVEL_VALUE
+  );
+};
